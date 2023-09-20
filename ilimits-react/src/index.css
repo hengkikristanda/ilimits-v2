@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.subtext {
+	@apply text-gray-500 text-sm;
+}
+
+.bold {
+	@apply text-xl text-red-300;
+}
+
+.line-separator {
+	@apply border-t border-gray-300 my-8;
+}
