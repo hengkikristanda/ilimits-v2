@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: "Noto-sans", system-ui, sans-serif;
+	}
+	h1 {
+		@apply text-4xl;
+		/* 36px */
+	}
+	h2 {
+		@apply text-3xl;
+		/* 30px */
+	}
+	h3 {
+		@apply text-2xl;
+		/* 24px */
+	}
+	h4 {
+		@apply text-xl;
+		/* 20px */
+	}
+	h5 {
+		@apply text-base;
+		/* 16px */
+	}
+	h6 {
+		@apply text-sm;
+		/* 14px */
+	}
+	p {
+		@apply text-base;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@layer utilities {
+	.text-link {
+		@apply text-baseGreen font-semibold;
+	}
+}
